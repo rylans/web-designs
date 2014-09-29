@@ -46,6 +46,12 @@ h1 {
   line-height: 1.143em;
 }
 
+h3 {
+  font-size: 1.12em;
+  margin-bottom: 0.5em;
+  line-height: 1.1em;
+}
+
 /* Tables */
 table {
   font-size: 13px;
@@ -77,4 +83,26 @@ th {
   padding-right: 5%;
   border-right: 1px solid #f5f5f5;
   min-height: 245px;
+}
+
+.right-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 27%;
+  overflow: auto;
+  overflow-x: hidden;
+  line-height: 1.3em;
+}
+
+.right-nav .nav-l {
+  border-top: 1px solid dcdcdc;
+  margin: 0;
+  padding: 0.25em 0 0 0;
+}
+
+.right-nav .nav-box {
+  display: block;
+  padding: 1em 1em 1em 0.6em;
+  margin-bottom: 0.8em;
 }
