@@ -4,7 +4,19 @@ html, body {
 }
 
 p {
-  margin: 1.5em;
+  margin: 1.5em 0;
+}
+
+code {
+  color: #191;
+  font-family: "Source Code Pro", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #3192c1;
+  font-weight: bold;
+  word-wrap: break-word;
 }
 
 * {
