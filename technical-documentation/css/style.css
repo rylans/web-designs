@@ -29,3 +29,10 @@ h1 {
   margin: auto;
   width: 90%;
 }
+
+.article-main {
+  width: 69%;
+  padding-right: 5%;
+  border-right: 1px solid #f5f5f5;
+  min-height: 245px;
+}
