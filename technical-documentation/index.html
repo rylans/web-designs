@@ -17,36 +17,42 @@
     <main id="pcontent" role="main">
       <article class="article-main">
 	<div>
-	  <h1 class="page_title">This API</h1>
-	  <p>This page is about the API calls that are used when making an application</p>
+	  <h1 class="page_title">ConnectionBuilderFactory</h1>
+	  <p>Provides an API for creating an object that is capable of building a connection.</p>
 
-	  <h2>First section</h2>
+	  <h2>Methods</h2>
 	  <p></p>
 
 	  <table>
 	    <tbody>
 	      <tr>
-		<th>Column one</th>
-		<th>Column two</th>
-		<th>Column three</th>
+		<th>Modifier & Type</th>
+		<th>Method Name</th>
+		<th>Description</th>
 	      </tr>
 
 	      <tr>
-		<td>function 1</td>
-		<td>Lorem ipsum</td>
-		<td>2014</td>
+		<td><code>static ConnectionBuilderFactory</code></td>
+		<td><code>newInstance()</code></td>
+		<td>Acquire a new instance of ConnectionBuilderFactory.</td>
 	      </tr>
 
 	      <tr>
-		<td>function 2</td>
-		<td>Dolor sit amet</td>
-		<td>2011</td>
+		<td><code>ConnectionBuilder</code></td>
+		<td><code>newConnectionBuilder()</code></td>
+		<td>Create a new ConnectionBuilder using the configured settings.</td>
 	      </tr>
 
 	      <tr>
-		<td>function 3</td>
-		<td>For example <code>ObjectFactory.create(7);</code> could create something</td>
-		<td>2015</td>
+		<td><code>void</code></td>
+		<td><code>setBufferSize(int buffSize)</code></td>
+		<td>Set the buffer size to be <code>buffSize</code> bytes.</td>
+	      </tr>
+
+	      <tr>
+		<td><code>void</code></td>
+		<td><code>setParser(ConnectionResponseParser resParser)</code></td>
+		<td>Set the response parser to be <code>resParser</code>.</td>
 	      </tr>
 	    </tbody>
 	  </table>
@@ -54,14 +60,30 @@
 
 	  <h2>Second section</h2>
 	  <p>Some <a href="">Links</a> to other <a href="">Places</a>.</p>
+
+	  <h2>Example usage</h2>
+
+	  <p>For simply getting a ConnectionBuilder object, try the following: </p>
+
+	  <pre><code>ConnectionBuilderFactory connectionBuilderFactory = ConnectionBuilderFactory.newInstance();
+connectionBuilderFactory.setBufferSize(4096);
+ConnectionBuilder connectionBuilder = connectionBuilderFactory.newConnectionBuilder();
+	  </code></pre>
 	  
 	</div>
 	<nav class="right-nav">
 	  <section class="nav-box">
 	    <h3>Subclasses</h3>
 	    <ol class="nav-l">
-	      <li>Subclass alpha</li>
-	      <li>Subclass beta</li>
+	      <li>HttpConnectionBuilderFactory</li>
+	      <li>FtpConnectionBuilderFactory</li>
+	    </ol>
+	  </section>
+
+	  <section class="nav-box">
+	    <h3>Superclass</h3>
+	    <ol class="nav-l">
+	      <li>AbstractBuilderFactory</li>
 	    </ol>
 	  </section>
 	</nav>
