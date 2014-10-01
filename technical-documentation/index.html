@@ -93,10 +93,10 @@
 
 	  <p>For simply getting a ConnectionBuilder object, try the following: </p>
 
-	  <pre class="shade"><code>ConnectionBuilderFactory connectionBuilderFactory = ConnectionBuilderFactory.newInstance();
-connectionBuilderFactory.setBufferSize(4096);
-ConnectionBuilder connectionBuilder = connectionBuilderFactory.newConnectionBuilder();
-	  </code></pre>
+	  <pre class="shade"><code>ConnectionBuilderFactory cbf = ConnectionBuilderFactory.newInstance();
+cbf.setBufferSize(4096);
+ConnectionBuilder connBuilder = cbf.newConnectionBuilder();
+</code></pre>
 	  
 	</div>
 	<nav class="right-nav shade">
