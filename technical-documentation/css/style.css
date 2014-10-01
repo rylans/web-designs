@@ -11,8 +11,8 @@ p {
 }
 
 code {
-  color: #191;
-  font-family: "Source Code Pro", sans-serif;
+  color: #129312;
+  font-family: "Source Code Pro", Monaco, Courier, monospace;
 }
 
 pre {
@@ -54,9 +54,8 @@ ul {
 
 /* Headers */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", Arial, "Lucida Grande", sans-serif;
   font-weight: 600;
-  color: #000;
+  color: #010101;
 }
 
 h1, h2 {
