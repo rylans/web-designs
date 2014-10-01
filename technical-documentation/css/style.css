@@ -25,6 +25,9 @@ pre {
   margin: 2em 0;
   word-wrap: break-word;
   position: relative;
+  box-shadow: -2px 2px 4px 0px rgba(0,0,0,0.52);
+  -webkit-box-shadow: -2px 2px 4px 0px rgba(0,0,0,0.52);
+  -mox-box-shadow: -2px 2px 4px 0px rgba(0,0,0,0.52);
 }
 
 a {
