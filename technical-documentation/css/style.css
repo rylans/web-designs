@@ -249,4 +249,29 @@ header a {
   .banner {
     display: none;
   }
+
+  h1 {
+    font-size: 1.98em;
+    line-height: 1.143em;
+  }
+
+  h2 {
+    font-size: 1.625em;
+  }
+
+  header a {
+    font-size: 1em;
+    margin-right: 0.7em;
+  }
+
+  .top-bar {
+    padding: 4px 0 0 0;
+    display: flex;
+    height: 30px;
+    position: relative;
+  }
+
+  .full-foot {
+    padding: 10px 0 10px;
+  }
 }
