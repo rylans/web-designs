@@ -215,3 +215,38 @@ header a {
   -webkit-box-shadow: -2px 2px 2px 0px rgba(0,0,0,0.15);
   -moz-box-shadow: -2px 2px 2px 0px rgba(0,0,0,0.15);
 }
+
+/* Media Queries
+================ */
+
+@media only screen and (max-width: 768px) {
+  #container {
+    margin: auto;
+    width: 97%;
+  }
+
+  .article-main {
+    width: 100%;
+    padding-right: 2.2%;
+    border: none;
+    min-height: 245px;
+  }
+
+  .right-nav {
+    background: #f5f5f5;
+    overflow: auto;
+    line-height: 1.3em;
+    position: relative;
+    top: auto;
+    right: auto;
+    width: auto;
+  }
+
+  .top-nav {
+    left: 0;
+  }
+
+  .banner {
+    display: none;
+  }
+}
