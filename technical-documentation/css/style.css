@@ -45,12 +45,17 @@ main {
   position: relative;
 }
 
+ul ul, ol, ul {
+  list-style-type: circle;
+}
+
 ul {
   padding-left: 1.4em;
   margin: 0.5em 0;
   display: block;
   list-style-type: disc;
 }
+
 
 /* Headers */
 h1, h2, h3, h4, h5, h6 {
