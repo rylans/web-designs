@@ -17,6 +17,12 @@ body > *:last-child {
   margin-bottom: 0 !important;
 }
 
+footer {
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 a {
   color: #4183C4;
   text-decoration: none;
@@ -404,3 +410,4 @@ pre code, pre tt {
   width: 88%;
   margin: auto;
 }
+
