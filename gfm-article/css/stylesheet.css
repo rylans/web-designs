@@ -384,3 +384,23 @@ pre code, pre tt {
   background-color: transparent;
   border: none;
 }
+
+.alert.warning {
+  color: #613A02;
+  background-color: #fee3c8;
+  border: 1px solid #dca975;
+}
+
+.alert {
+  margin: 0 auto;
+  position: relative;
+  border-radius: 3px;
+  padding: 15px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.container {
+  max-width: 800px;
+  width: 88%;
+  margin: auto;
+}
