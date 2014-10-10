@@ -19,6 +19,7 @@ body > *:last-child {
 
 footer {
   width: 800px;
+  margin-top: 28px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -207,9 +208,16 @@ dl dd > :last-child {
 }
 
 blockquote {
-  border-left: 4px solid #dddddd;
+  border-left: 2px solid #dddddd;
   padding: 0 15px;
-  color: #777777;
+  color: #666;
+  margin-bottom: 0;
+}
+
+.quote-after {
+  margin-top: 0;
+  color: #888;
+  font-size: 0.7em;
 }
 
 blockquote > :first-child {
@@ -418,4 +426,3 @@ pre code, pre tt {
   .container {
     margin: auto;
     width: 100%;
-  }
