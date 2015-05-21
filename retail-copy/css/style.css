@@ -1,18 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
 html, body {
   font-family: "Myriad Set Pro","Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
   font-style: normal;
   color: #616161;
-  font-size: 13px;
+  font-size: 15px;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
-nav, header {
+div, section, nav, header {
   display: block;
 }
 
 a {
   text-decoration: none;
+}
+
+h1 {
+  margin-top: 2.3em;
 }
 
 .locktop {
@@ -74,4 +82,30 @@ a {
   margin-left: 25px;
   margin-right: 30px;
   margin-top: 16px;
+}
+
+.twin {
+  float: left;
+  position: relative;
+  overflow: visible;
+  text-align: center;
+  padding: 0 18px;
+  width: 50%;
+  margin-bottom: 1em;
+}
+
+.triplet {
+  float: left;
+  position: relative;
+  overflow: visible;
+  text-align: center;
+  padding: 0 12px;
+  width: 33.33%;
+  margin-bottom: 1em;
+}
+
+.main {
+  max-width: 870px;
+  width: 80%;
+  margin: auto;
 }
