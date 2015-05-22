@@ -9,44 +9,38 @@
     <title>Retail Copy</title>
 
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Code+Pro" rel="stylesheet" type="text/css">
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" type="text/css">
   </head>
 
   <body>
-    <div id="container">
+    <div class="container">
 
-      <nav class="locktop">
-        <header class="nav-head">
-          <a class="nav-title" href="">Product</a>
-          <a class="button buy" href="">Buy Now</a>
-        </header>
-      </nav>
-
-    <div class="main">
-
-    <div class="single">
-    <h1>Headline!</h1>
-    <p>
-      Do you ever feel depressed, sad or unmotivated? Are you ready to improve your life in
-      every way? Let me tell you about the one secret that changed my life forever.
-    </p>
+    <div class="row">
+      <h1>Headline!</h1>
+      <p>
+        Do you ever feel depressed, sad or unmotivated? Are you ready to improve your life in
+        every way? Let me tell you about the one secret that changed my life forever.
+      </p>
     </div>
 
-    <div class="twin">
-      <h3>This Feature</h3>
-    <p>
-      Get 100% more of this than you ever imagined.
-    </p>
+    <div class="row">
+      <div class="col-xs-6">
+        <h3>This Feature</h3>
+      <p>
+        Get 100% more of this than you ever imagined.
+      </p>
+      </div>
+
+      <div class="col-xs-6">
+        <h3>That Feature</h3>
+      <p>
+        You can get twice as much as that instantly.
+      </p>
+      </div>
     </div>
 
-    <div class="twin">
-      <h3>That Feature</h3>
-    <p>
-      You can get twice as much as that instantly.
-    </p>
-    </div>
-
-    <div class="single">
+    <div class="row">
       <h3>Hundreds of satisfied customers</h3>
     <p>
       I've had hundreds of customers who tried this method and got so excited about it. They
@@ -55,28 +49,30 @@
     </p>
     </div>
 
-    <div class="triplet">
+    <div class="row">
+      <div class="col-xs-4">
       <h3>No additives</h3>
     <p>
       Absolutely no pesky additives.
     </p>
     </div>
 
-    <div class="triplet">
+      <div class="col-xs-4">
       <h3>No fillers</h3>
     <p>
       There are zero fillers or binders.
     </p>
     </div>
 
-    <div class="triplet">
-      <h3>No preservatives</h3>
-    <p>
-      Our product contains no unhealthy preservatives whatsoever.
-    </p>
+      <div class="col-xs-4">
+        <h3>No preservatives</h3>
+        <p>
+          Our product contains no unhealthy preservatives whatsoever.
+        </p>
+      </div>
     </div>
 
-    <div class="single">
+    <div class="row">
       <h3>Proven by science</h3>
     <p>
       Scientists at the University of California have already completed stage three trials and
@@ -85,7 +81,7 @@
     </p>
     </div>
 
-    <div class="single">
+    <div class="row">
       <h3>Get it Now</h3>
     <p>
     For only $19.95 you can get your own miracle solution and start seeing results in just days. 
@@ -93,11 +89,12 @@
      </p>
     </div>
     
-    <div class="ctr">
-    <a class="button buy big" href="">Buy Now</a>
-  </div>
+      <div class="row">
+        <div class="col-lg-1 col-centered text-center">
+          <button class="btn btn-primary">Buy Now</button>
+        </div>
+      </div>
 
-    </div>
     </div>
   </body>
 </html>
