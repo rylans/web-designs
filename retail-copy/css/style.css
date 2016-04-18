@@ -1,4 +1,12 @@
-col-centered{
-  float: none;
-  margin: 0 auto;
+body {
+  Padding-top: 18px;
+}
+
+h1 {
+  margin-top: 24px;
+  margin-bottom: 14px;
+}
+
+.b-grey {
+  background-color: #eee;
 }
