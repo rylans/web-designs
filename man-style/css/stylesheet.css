@@ -10,8 +10,16 @@ header {
   text-transform: uppercase;
 }
 
+footer {
+  font-size: 10px;
+  text-align: center;
+  color: #aaa;
+  text-transform: uppercase;
+  margin: 24px 0 0 0;
+}
+
 h2 {
-  font-size: 1em;
+  font-size: 16px;
   line-height: 1.25
   color: #020202;
   margin: 10px 0 0 0;
