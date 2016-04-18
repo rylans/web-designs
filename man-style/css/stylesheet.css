@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-size: 14px;
+}
+
+header {
+  margin-bottom: 2em;
+  text-align: center;
+  color: #aaa;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1em;
+  line-height: 1.25
+  color: #020202;
+  margin: 10px 0 0 0;
+  text-transform: uppercase;
+}
+
+p, dl {
+  margin: 0 0 20px 16px;
+}
+
+dt, dd {
+  display: inline;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 0;
+}
+
+dd:after {
+  display: block;
+  content: '';
+  margin: 0 0 16px 0;
+}
+
+.m {
+  max-width: 625px;
+  padding: 0 9em 1em 2em;
+  text-align: justify;
+  color: #131313;
+  font-family: monospace;
+  line-height: 20px;
+}
