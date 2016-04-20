@@ -12,6 +12,12 @@ a {
   color: #458DD4;
 }
 
+a.topic {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #12134a;
+}
+
 h1.headline {
   font-size: 2.5em;
   font-weight: 700;
