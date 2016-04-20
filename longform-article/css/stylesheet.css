@@ -7,6 +7,11 @@ html {
   color: #000000;
 }
 
+a {
+  text-decoration: none;
+  color: #458DD4;
+}
+
 h1.headline {
   font-size: 2.5em;
   font-weight: 700;
@@ -60,6 +65,14 @@ div.article-foot {
   .article {
     width: 98%;
     margin: 0 auto;
+  }
+
+  h1.headline {
+    font-size: 1.6em;
+    font-weight: 700;
+    margin-top: 2px;
+    margin-bottom: 6px;
+    text-align: left;
   }
 
 }
