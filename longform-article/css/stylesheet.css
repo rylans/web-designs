@@ -55,3 +55,11 @@ div.article-foot {
   text-align: center;
   color: #aaa;
 }
+
+@media only screen and (max-width: 767px) {
+  .article {
+    width: 98%;
+    margin: 0 auto;
+  }
+
+}
